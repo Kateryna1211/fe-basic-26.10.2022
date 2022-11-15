@@ -1,0 +1,25 @@
+p {
+    color:blue;
+    width: 500px
+}
+.some-classs {
+    color: yellow;
+    width: initial;
+}
+#someId {
+    color:rgb(107, 226, 43)
+}
+ p[data-target]
+{color:crimson}
+
+p.some-class,
+p#someId{
+    color: green;
+}
+div span {
+    color: olive;
+}
+p.some-class +
+p#someId { color: saddlebrown;
+
+}
