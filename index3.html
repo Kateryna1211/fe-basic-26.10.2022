@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1>Homework #6</h1>
+        <h2>Пошук</h2>
+        <form action="https://fom.in.ua/echo" method="post">
+            <h3> Тип кузова</h3>
+            <p>
+                <label>
+                    <input type="radio" name="Тип кузова" value="open">
+                    Закритий
+                </label><br>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="Тип кузова" value="closed">
+                    Відкритий
+                </label>
+            </p>
+            <h3> Марка авто</h3>
+            <p>
+                <label>
+                    <input type="radio" name="Марка авто" value="Nissan">
+                    Nissan
+
+                </label><br>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="Марка авто" value="BMW">
+                    BMW
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="Марка авто" value="Skoda">
+                    Skoda
+                </label>
+            </p>
+            <h2>Країна виробник</h2>
+            <label for="country_manufacturer">Країна:</label>
+            <select name="country_manufacturer" id="country_manufacturer">
+
+
+                <option value="deu">Німеччина </option>
+                <option value="geo">Грузія</option>
+                <option value="dnk">Данія</option>
+                <option value="isr">Израиль</option>
+                <option value="esp">Іспанія</option>
+                <option value="chn">Китай</option>
+                <option value="jpn">Японія</option>
+            </select>
+
+            <label for="number">Ціна:</label>
+            <input type="number" id="number" step="1" min="0" placeholder="10000"> $
+            <h2>Стан автомобіля:</h2>
+            <input type="checkbox" name="broken" id="broken" value="broken">
+            <label for="broken">Бита</label>
+
+            <input type="checkbox" name="on_credit" id="on_credit" value="on_credit">
+            <label for="on_credit">У кредиті</label>
+
+            <input type="checkbox" name="uncleared" id="uncleared" value="uncleared">
+            <label for="uncleared">Нерозмитнена</label>
+            <br>
+            <input type="checkbox" name="auto_from_usa" id="auto_from_usa" value="auto_from_usa">
+            <label for="auto_from_usa">Авто зі США</label>
+
+            <input type="checkbox" name="garage_storage" id="garage_storage" value="garage_storage">
+            <label for="garage_storage">Гаражне зберігання</label>
+            <h2>Тип коробки передач:</h2>
+            <input type="radio" name="automaton" id="automaton" value="automaton">
+            <label for="automaton">Автомат</label>
+
+            <input type="radio" name="mechanics" id="mechanics" value="mechanics">
+            <label for="mechanics">Механіка</label>
+
+            <input type="radio" name="tiptronic" id="tiptronic" value="tiptronic">
+            <label for="tiptronic">Типтронік</label>
+            <h2>Вибір кольору автомобіля </h2>
+            <label for="my_coLor">Кольор</label>
+            <input type="color" name="color" value="#ff0000" id="my_coLor">
+            <input class="btn" type="submit" value="Обрати">
+            <h2>Комфорт:</h2>
+            <label for="comfort"></label>
+            <select name="comfort" id="comfort">
+                <option value="cars">Легкові</option>
+                <option value="central_locking">Центральний замок</option>
+                <option value="anti_theft_systems">Протиугінні системи </option>
+                <option value="parking_system">Паркувальна система </option>
+                <option value="heating_elements">Нагрівальні елементи </option>
+                <option value="engine_control">Управління двигуном</option>
+                <option value="autostart">Автозапуск</option>
+                <option value="laser_headlights">Лазерні фари</option>
+                <option value="climate_control_system">Система клімат-контролю </option>
+                <option value="windshield_washer">Склоомивач</option>
+            </select>
+            <h2>Тип палива:</h2>
+            <input type="radio" name="petrol" id="petrol" value="petrol">
+            <label for="petrol">Бензин</label>
+
+            <input type="radio" name="gas" id="gas" value="gas">
+            <label for="gas">Газ</label>
+
+            <input type="radio" name="hybrid" id="hybrid" value="hybrid">
+            <label for="hybrid">Гибрид</label>
+
+            <input type="radio" name="electro" id="electro" value="electro">
+            <label for="electro">Електро</label>
+
+            <input type="radio" name="diesel" id="diesel" value="diesel">
+            <label for="diesel">Дізель</label>
+            <h2>Рік випуску</h2>
+            <label for="production_year">Рік випуску :</label>
+            <input type="date" id="production_year">
+            <button>Send</button>
+        </form>
+
+    </main>
+</body>
+
+</html>
